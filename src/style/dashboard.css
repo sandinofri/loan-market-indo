@@ -1,0 +1,198 @@
+.dashboard-header{
+    display: flex;
+    background-color: #fff;
+    margin-left: 5px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 20px !important;
+    gap: 30px !important;
+    
+}
+
+.dashboard-header .name{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 43px;
+    color: #17A9E2;
+    margin-bottom: 20px !important;
+}
+
+.dashboard-header .description p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px !important;
+}
+
+.dashboard-header .description img{
+    width: 20px !important; 
+    height: 20px !important;
+    border-radius: 50px !important;
+    background-color: #E2E0FF;
+    padding: 5px !important;
+    margin-top: 5px !important;
+}
+
+.dashboard-header .description .half-border{
+    border-right: 1px solid #646567;
+}
+
+.dashboard-content{
+    display: flex;
+    padding-left: 20px !important;
+    padding-top: 30px !important;
+}
+
+.dashboard-content .main{
+    width: 70% !important;
+}
+
+.dashboard-content .side{
+    width: 30%;
+}
+
+.dashboard-content .main div div{
+    background-color: #fff;
+}
+
+.dashboard-content .main div  .colleagues{
+    border-radius: 5px;
+    margin-right: 14px !important;
+}
+
+.dashboard-content .main div div .contact-image{
+    width: 50px !important; 
+    height: 50px !important;
+    border-radius: 50px !important;
+    background-color: #E2E0FF;
+    padding: 5px !important;
+    margin-top: 5px !important;
+}
+
+.dashboard-content .main .p1{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dashboard-content .main .p2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #17A9E2;
+}
+
+.dashboard-content .main{
+    width: 20%;
+}
+
+.dashboard-content .main .chart-pinjaman{
+    background-color: #fff;
+    width: 650px !important;
+    display: flex !important;
+    justify-content: space-around;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.dashboard-content .main .chart-pinjaman div:nth-child(1) p:nth-child(1){
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.dashboard-content .main .chart-pinjaman div:nth-child(1) p:nth-child(3){
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.dashboard-content .main .chart-pinjaman div:nth-child(3) p:nth-child(3){
+    font-size: 18px;
+    font-weight: 500;
+ }
+ 
+
+.dashboard-content .main .chart-pinjaman div:nth-child(3) p:nth-child(1){
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.dashboard-content .main .chart-pinjaman .vertical-line{
+    height: 250px !important;
+    border: 1px solid #C1C1C1;
+}
+
+.dashboard-content .main .chart-pinjaman .chart1-img{
+    width: 180px !important;
+    height: 180px !important;
+    background-color: #fff !important;
+}
+
+.chart-pinjaman .image-container{
+    position: relative; /* Mengatur container sebagai elemen posisi relatif */
+    display: inline-block;
+}
+
+.chart-pinjaman .image-container .text-overlay {
+    position: absolute; /* Teks akan diposisikan relatif terhadap container */
+    top: 50%; /* Atur posisi vertikal */
+    left: 50%; /* Atur posisi horizontal */
+    transform: translate(-50%, -50%); /* Untuk membuat teks benar-benar di tengah */
+    
+    font-size: 25px; /* Ukuran teks */
+    font-weight: 500;
+    padding: 10px; /* Jarak dalam untuk teks */
+    border-radius: 5px; /* Opsional: sudut melengkung */
+  }
+
+  .dashboard-content .top5-chart{
+    background-color: #fff;
+    margin-top: 40px !important;
+    margin-bottom: 50px !important;
+    width: 650px;
+    padding: 20px 40px 20px 40px !important;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .dashboard-content .top5-chart p{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px !important;
+  }
+
+  .dashboard-content .top5-chart .top5-image-container{
+    width: 500px;
+    margin: auto !important;
+    .top5-image{
+        width: 100%;
+    }
+  }
+
+  .dashboard-content .side .notification{
+    background-color: #fff;
+    padding: 10px 10px 10px 10px !important;
+    margin-right: 30px !important;
+    border-radius: 5px;
+  }
+
+  .dashboard-content .side .notification p{
+    font-size: 13px !important;
+    font-weight: 500;
+    width: 150px !important;
+    line-height: 15px !important;
+  }
+
+  .dashboard-content .side .notification span{
+    font-size: 11px !important;
+    width: 140px !important;
+  }
+
+  .dashboard-content .side .notification .small{
+    font-size: 11px !important;
+    width: 140px !important;
+    font-weight: 400;
+    margin-top: 10px !important;
+  }
+
+  .dashboard-content .side .notification ul div{
+    margin-bottom: 14px !important;
+  }

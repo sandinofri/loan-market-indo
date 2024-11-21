@@ -1,0 +1,165 @@
+.product-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 5px !important;
+}
+
+.product-header p{
+    font-size: 20px;
+    width: 200px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.product-header p:hover{
+    color: #17A9E2;
+    border-bottom: 2px solid #17A9E2;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-list div{
+    background-color: #fff;
+    padding: 5px 5px 5px 5px !important;
+    border-radius: 5px;
+    text-align: center;
+    width: 170px;
+    height: 130px;
+    margin-bottom: 10px !important;
+}
+
+.product-list div img{
+    width: 60px;
+    margin-bottom: 20px !important;
+}
+
+.product-list p{
+    line-height: 18px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form .search{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 8px 12px 8px !important;
+    margin-right: 50px !important;
+    font-size: 12px;
+}
+
+.form .select{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 8px 12px 8px !important;
+    margin-right: 50px !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.form .sort{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 8px 12px 8px !important;
+    margin-right: 50px !important;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.form .btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17A9E2;
+    color: #fff;
+    width: 185px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bank-product{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px !important;
+    border-radius: 5px;
+}
+
+.bank-product h6{
+    font-size: 23px;
+    color: #17A9E2;
+}
+
+.bank-product .bank-logo{
+    width: 120px;
+    margin-bottom: 20px !important;
+    img{
+        width: 100%;
+    }
+}
+
+.bank-product .vertical-line{
+    height: 60px;
+    border: 1px solid #C1C1C1;
+    margin-top: 15px !important;
+}
+
+.bank-product p{
+    font-size: 13px;
+    color: #C1C1C1;
+    font-weight: 500;
+    line-height: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+.bank-product .p1{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    line-height: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+.bank-product .star{
+    font-size: 20px;
+}
+
+.bank-product .bag-2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.bank-product .bag-2 .icon{
+    font-size: 30px !important;
+}
+
+.bank-product .bag-3 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px 5px 30px !important;
+    color: #17A9E2;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #C1C1C1;
+}
+

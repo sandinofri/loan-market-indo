@@ -1,0 +1,9 @@
+.main-content{
+    display: flex;
+    .side{
+        width: 20%;
+    }
+    .content{
+        width: 80%;
+    }
+}
